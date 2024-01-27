@@ -1,0 +1,63 @@
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+
+.form-label{
+  font-weight: 600;
+  margin: 10px 0;
+  display: block;
+}
+
+.form-control{
+    margin: 10px 0;
+    padding: 5px; 
+    display: block;
+    width: 70%;
+}
+
+.button-group button{
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(64, 107, 246);
+    color: white;
+    font-weight: 600;
+}
+
+table, th, td{
+    border: 1px solid;
+}
+
+th, td{
+    padding: 10px;
+}
+
+
+
+.btn-group{
+    display: flex;
+    gap: 10px;
+}
+
+.delete-btn{
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.edit-btn{
+    padding: 8px 15px;
+    background-color: rgb(46, 105, 231);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+
+}
